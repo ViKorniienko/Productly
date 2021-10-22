@@ -1,0 +1,59 @@
+body {
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #2F281E;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 1126px;
+}
+
+.nav-list {
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration-color: #2F281E;
+  list-style: none;
+  align-items: center; 
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+}
+
+.sign_in{
+    background: #FFFFFF;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 102px;
+    height: 46px;
+}
+
+.sign_up {
+    background: #FF9900;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 102px;
+    height: 46px;
+
+}
