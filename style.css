@@ -23,14 +23,18 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1400px;
+  height: 78px;
   gap: 55px;
-  margin-top: 27px;
+  margin-top: 20px;
 
 }
 
 .logo {
   display: flex;
   justify-content: center;
+  width: 185.34px;
+  height: 31.97px;
   align-items: flex-end;
   gap: 10px;
 
@@ -41,18 +45,23 @@ a {
   display: flex;
   align-items: center; 
   justify-content: center;
+  height: 28px;
   font-size: 14px;
+  line-height: 28px;
   text-decoration-color: #2F281E;
   list-style: none;
   margin-left: 225px;
   gap: 25px;
+  margin-top: 24px;
+  margin-block-end: 37px;
   
 }
 
 .header_auth {
   display: flex;
-  margin: 0px;
   gap: 15px;
+  width: 226px;
+  height: 60px;
 }
 
 .sign_in{
@@ -84,13 +93,88 @@ btn:hover {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 55px;
-  margin-top: 27px;
+  width: 1126px;
+  height: 494.83px;
 }
 
-.design {
-  font-size: 44px;
+.text_block {
+  position: relative;
+  top: 84px;
+  left: 8px;
+  width: 518px;
+  height: 331px;
 }
+.design {
+  display: flex;
+  width: 518px;
+  height: 108px;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 20px;
+
+}
+
+.text {
+  position: relative;
+  top: -6px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  width: 458px;
+  height: 95px;
+  line-height: 28px;
+  color: #544837;
+}
+
+.Image1 {
+  position: relative;
+  bottom: 382px;
+  left: 33em;
+  width: 605px;
+height: 494.83px;
+}
+
+.hero_auth {
+  position: relative;
+  top: 31px;
+  left: 8px;
+  gap: 30px;
+  width: 366.21px;
+  height: 53px;
+}
+
+p {
+  font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.get {
+  background: #FF9900;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 175.1px;
+    height: 53px;
+}
+
+.watch {
+  background: #FFffff;
+  border: none;
+  color: #FF9900;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 175.1px;
+  height: 23px;
+  line-height: 24px;
+}
+
