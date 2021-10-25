@@ -88,13 +88,8 @@ a {
     padding: 0%;
 }
 
-btn:hover {
+button, input {
   cursor: pointer;
-}
-
-.hero {
-  width: 1126px;
-  height: 494.83px;
 }
 
 .text_block {
